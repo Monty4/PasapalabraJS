@@ -3,7 +3,7 @@
 
 ## DESCRIPCIÓN
 
-Intenta responder el máximo numero de preguntas posible en 15 segundos por pregunta.
+Intenta responder el máximo número de preguntas posible en 15 segundos por pregunta.
 
 ## TECNOLOGÍAS
 
