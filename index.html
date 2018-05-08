@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Pasapalabra</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div id="titulo">
+		<h1>PASAPALABRA</h1>
+	</div>
+	<!-- TABLERO DE JUEGO -->
+	<div id="tablero">
+		<div id="a" onclick="check('a')">A</div>
+		<div id="b" onclick="check('b')">B</div>
+		<div id="c" onclick="check('c')">C</div>
+		<div id="d" onclick="check('d')">D</div>
+		<div id="e" onclick="check('e')">E</div>
+		<div id="f" onclick="check('f')">F</div>
+		<div id="g" onclick="check('g')">G</div>
+		<div id="h" onclick="check('h')">H</div>
+		<div id="i" onclick="check('i')">I</div>
+		<div id="j" onclick="check('j')">J</div>
+		<div id="k" onclick="check('k')">K</div>
+		<div id="l" onclick="check('l')">L</div>
+		<div id="m" onclick="check('m')">M</div>
+		<div id="n" onclick="check('n')">N</div>
+		<div id="ñ" onclick="check('ñ')">Ñ</div>
+		<div id="o" onclick="check('o')">O</div>
+		<div id="p" onclick="check('p')">P</div>
+		<div id="q" onclick="check('q')">Q</div>
+		<div id="r" onclick="check('r')">R</div>
+		<div id="s" onclick="check('s')">S</div>
+		<div id="t" onclick="check('t')">T</div>
+		<div id="u" onclick="check('u')">U</div>
+		<div id="v" onclick="check('v')">V</div>
+		<div id="w" onclick="check('w')">W</div>
+		<div id="x" onclick="check('x')">X</div>
+		<div id="y" onclick="check('y')">Y</div>
+		<div id="z" onclick="check('z')">Z</div>
+		<div id="info" onclick="start()">P L A Y</div> 
+		<div id="question">
+			<div id="playername"></div>
+			<textarea name="" placeholder="" id="thequestion" disabled="disabled" cols="4"></textarea>
+			<input type="text" name="" placeholder="Respuesta" id="theanswer">
+		</div>
+		<div id="buttonanswer">
+			<button class="buttons" id="answer" onclick="checkanswer()">Contestar</button>
+		</div>
+		<div id="buttonpass">
+			<button class="buttons" id="pass" onclick="pasapalabra()">Pasapalabra</button>
+		</div>
+		<div id="buttonend">
+			<button class="buttons" id="end" onclick="exit('exit')">Terminar</button>
+		</div>
+		<div id="buttonleave">
+			<button class="buttons" id="leave" onclick="exit('leave')">Abandonar</button>
+		</div>
+		<div id="countdown"></div>
+		<div id="parcialp1">&nbsp;</div>
+		<div id="parcialp2">&nbsp;</div>
+		<div id="buttonrestart">
+			<button class="buttons" id="restart" onclick="restart()">Volver a jugar</button>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>
