@@ -7,7 +7,7 @@ Intenta responder el máximo numero de preguntas posible en 15 segundos por preg
 
 ## TECNOLOGÍAS
 
-- HTML5, CSS3, BOOTSRAP 4
+- HTML5, CSS3
 - JS
 
 ## FLUJO
